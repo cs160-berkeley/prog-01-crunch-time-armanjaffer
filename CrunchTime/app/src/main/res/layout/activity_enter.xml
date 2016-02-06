@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/tom" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="YOU SHOULDNT SEE THIS"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="60sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="100sp"
+        android:layout_marginTop="150dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How much do you weigh?"
+        android:id="@+id/textView2"
+        android:textSize="60sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="150"
+        android:id="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textAlignment="gravity"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="300"
+        android:id="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textAlignment="gravity"
+        android:layout_gravity="right"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate"
+        android:textSize="100sp"
+        android:id="@+id/button5"
+        android:layout_below="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar"
+        android:layout_marginTop="80dp"
+        android:textColor="#FFF" />
+
+
+
+</LinearLayout>
+

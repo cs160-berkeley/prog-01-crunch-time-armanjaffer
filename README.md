@@ -3,16 +3,18 @@
 Briefly describe your app here.
 
 ## Authors
-
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Arman Jaffer 
+([arman@berkeley.edu](mailto:arman@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Crunch Time] (/Users/Arman/AndroidStudioProjects/CrunchTime)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s1.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/s3.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
